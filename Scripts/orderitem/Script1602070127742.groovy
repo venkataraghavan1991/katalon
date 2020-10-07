@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://blindjunction.co.uk/finaltesting/')
 
 WebUI.setText(findTestObject('Object Repository/orderitem/Page_Login - Software to Manage Blinds from_4df230/input_Company  Name_company_name'), 
-    'BAYBLINDS')
+    'DONSMITH')
 
 WebUI.setText(findTestObject('Object Repository/orderitem/Page_Login - Software to Manage Blinds from_4df230/input_User Name_user_name'), 
     'admin')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/orderitem/Page_Login - Software to Manage Blinds from_4df230/input_Password_user_password'), 
-    'ZBv2ofE4ATVSU9GkvQsJfw==')
+    '4nvbrPglk7k=')
 
 WebUI.click(findTestObject('Object Repository/orderitem/Page_Login - Software to Manage Blinds from_4df230/input_Password_submitButton'))
 
