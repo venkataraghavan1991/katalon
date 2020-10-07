@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select ProductDF11 Roof Window Blind (V_99942c</name>
+   <tag></tag>
+   <elementGuidId>ab1f706b-98b0-40df-8e11-ba85522b8559</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='productid_chosen']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#productid_chosen</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chosen-container chosen-container-single chosen-with-drop chosen-container-active</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>productid_chosen</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select ProductDF11 Roof Window Blind (Velux etc)Clear HangerscreenPoint of Sale MaterialsClear RollerscreenDouble Roller BlindPFI Bottom up Pleated Gable BlindRollerRSXL Roller (Evans)Roller Open CassetteRoller Closed CassetteRoller BlockoutP.Fit Roller - PlainP.Fit Roller - WoodgrainPanel BlindRoman (Roller Fabric)Evans Roman HeadrailOpen Cassette VisionClosed Cassette VisionP.Fit Vision - PlainWand Op VerticalP.Fit Vision - WoodgrainCord Op VerticalWand Op Vertical HeadrailCord Op Vertical HeadrailVertical LouvresAllusionTimber VenetianP.Fit Wooden Venetian - Plain FrameP.Fit Wooden Venetian - Woodgrain FrameComposite VenetianAluminium VenetianP.Fit Aluminium VenetianP1615SA (Multizone Self Adhesive Profile)P1600P1615 (Multizone)P1602P1612P1622P1626P1700P1705P1702P1751P1800P1802P1805P1900Louvolite Cassette Freehanging PleatedStandard Pleated Rectangular (ROOF)Standard Pleated Shaped (ROOF)P.Fit Window Blinds - (Plain Frame)P.Fit Window Blinds - (Woodgrain frame)P.Fit Dual Fabric (Woodgrain Frame)P.Fit Dual Fabric (Plain Frame)P.Fit window blind (MULTIZONE) - (Plain Frame)P.Fit Window Blind (MULTIZONE) - (Woodgrain)P.Fit International SkylightP.Fit International Freehanging (Gable)P.Fit International Rectangular (ROOF)P.Fit International Shaped (ROOF)Fly ScreensAwningsService DetailsMotorsPower SuppliesHandsetsMotorisation ExtrasSurvey, Manufacture &amp; Fit ServiceSpecialsVisagetestnormal protest pro</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;productid_chosen&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='productid_chosen']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='Order']/div[7]/div/div[2]/div[2]/div/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Characters'])[1]/following::div[93]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Message:'])[1]/following::div[93]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

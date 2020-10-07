@@ -20,7 +20,7 @@ WebUI.openBrowser('', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.maximizeWindow(FailureHandling.OPTIONAL)
 
-WebUI.navigateToUrl('https://blindjunction.co.uk/testingsource/', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.navigateToUrl('https://blindjunction.co.uk/finaltesting/', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Object Repository/Junction_Login/Page_Login - Software to Manage Blinds from_4df230/input_Company  Name_company_name'), 
     'DONSMITH')

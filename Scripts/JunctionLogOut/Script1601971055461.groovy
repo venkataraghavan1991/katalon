@@ -16,15 +16,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Junction_Login/Junction_Logout/Page_Create New/img_Characters_adminimage'))
+WebUI.click(findTestObject('Object Repository/Logout/Page_Create New/img_Characters_adminimage'))
 
-WebUI.click(findTestObject('Object Repository/Junction_Login/Junction_Logout/Page_Create New/input'))
+WebUI.click(findTestObject('Object Repository/Logout/Page_Create New/input'))
 
-WebUI.click(findTestObject('Object Repository/Junction_Login/Junction_Logout/Page_Create New/img_Characters_adminimage'))
+WebUI.getWindowTitle()
 
-WebUI.click(findTestObject('Object Repository/Junction_Login/Junction_Logout/Page_Create New/input'))
+WebUI.delay(60)
 
-WebUI.click(findTestObject('Object Repository/Junction_Login/Junction_Logout/Page_Create New/img_Characters_adminimage'))
-
-WebUI.click(findTestObject('Object Repository/Junction_Login/Junction_Logout/Page_Create New/input'))
+WebUI.closeBrowser()
 
