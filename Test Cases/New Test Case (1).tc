@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Test Case (1)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>828393cf-ca4d-4198-b068-3d5df5d7ac21</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d91054ba-6c7e-4cfb-9c52-accb27874050</id>
+      <masked>false</masked>
+      <name>Companyname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e26b675f-7bb2-41ed-86af-63bee067d933</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>db734c56-c3e1-4a7c-a370-2873cd33df98</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

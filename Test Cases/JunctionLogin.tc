@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>JunctionLogin-Testingsource</name>
+   <name>JunctionLogin</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>62f916cb-d0f8-4a75-bda2-40cf378f460d</testCaseGuid>

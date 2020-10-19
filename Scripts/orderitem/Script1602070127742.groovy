@@ -18,16 +18,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://blindjunction.co.uk/finaltesting/')
+WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.setText(findTestObject('Object Repository/orderitem/Page_Login - Software to Manage Blinds from_4df230/input_Company  Name_company_name'), 
-    'DONSMITH')
+    GlobalVariable.CompanyName)
 
 WebUI.setText(findTestObject('Object Repository/orderitem/Page_Login - Software to Manage Blinds from_4df230/input_User Name_user_name'), 
-    'admin')
+    GlobalVariable.UserName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/orderitem/Page_Login - Software to Manage Blinds from_4df230/input_Password_user_password'), 
-    '4nvbrPglk7k=')
+WebUI.setText(findTestObject('Object Repository/orderitem/Page_Login - Software to Manage Blinds from_4df230/input_Password_user_password'), 
+    GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/orderitem/Page_Login - Software to Manage Blinds from_4df230/input_Password_submitButton'))
 
@@ -64,7 +64,7 @@ WebUI.click(findTestObject('Object Repository/orderitem/Page_Create New/span_Sav
 
 WebUI.click(findTestObject('Object Repository/orderitem/Page_Create New/input_Characters_accref'))
 
-WebUI.setText(findTestObject('Object Repository/orderitem/Page_Create New/input_Characters_surname'), 'Usha')
+WebUI.setText(findTestObject('Object Repository/orderitem/Page_Create New/input_Characters_surname'), 'Venkat')
 
 WebUI.setText(findTestObject('Object Repository/orderitem/Page_Create New/input_Characters_address'), 'Test')
 

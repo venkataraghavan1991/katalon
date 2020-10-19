@@ -16,24 +16,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.maximizeWindow(FailureHandling.OPTIONAL)
+WebUI.navigateToUrl('https://blindjunction.co.uk/testingsource/')
 
-WebUI.navigateToUrl('https://blindjunction.co.uk/finaltesting/', FailureHandling.CONTINUE_ON_FAILURE)
+for (def rowNum = 1; rowNum <= findTestData('login').getRowNumbers(); rowNum++) {
+    WebUI.setText(findTestObject('Object Repository/excel/Page_Login - Software to Manage Blinds from_4df230/input_Company  Name_company_name'), 
+        findTestData('login').getValue(1, rowNum))
 
-WebUI.setText(findTestObject('Object Repository/Junction_Login/Page_Login - Software to Manage Blinds from_4df230/input_Company  Name_company_name'), 
-    'DONSMITH')
+    WebUI.setText(findTestObject('Object Repository/excel/Page_Login - Software to Manage Blinds from_4df230/input_User Name_user_name'), 
+        findTestData('login').getValue(2, rowNum))
 
-WebUI.setText(findTestObject('Object Repository/Junction_Login/Page_Login - Software to Manage Blinds from_4df230/input_User Name_user_name'), 
-    'admin')
+    WebUI.setText(findTestObject('Object Repository/excel/Page_Login - Software to Manage Blinds from_4df230/input_Password_user_password'), 
+        findTestData('login').getValue(3, rowNum))
+	Thread.sleep(2000)
+}
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Junction_Login/Page_Login - Software to Manage Blinds from_4df230/input_Password_user_password'), 
-    '4nvbrPglk7k=')
+WebUI.click(findTestObject('Object Repository/excel/Page_Login - Software to Manage Blinds from_4df230/input_Password_submitButton'))
 
-WebUI.click(findTestObject('Object Repository/Junction_Login/Page_Login - Software to Manage Blinds from_4df230/input_Password_submitButton'))
-
-WebUI.waitForPageLoad(5)
-
-WebUI.getWindowTitle()
+WebUI.click(findTestObject('Object Repository/excel/Page_Order Search/p_STOCK'))
 

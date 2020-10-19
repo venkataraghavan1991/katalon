@@ -15,7 +15,7 @@
       <guid>02e4e5da-ad28-410a-959a-b3f0c9c50ff6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JunctionLogin-Testingsource</testCaseId>
+      <testCaseId>Test Cases/JunctionLogin</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>93d6da5e-efae-40eb-9b15-65950d7b6dad</guid>
