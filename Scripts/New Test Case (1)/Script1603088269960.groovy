@@ -18,18 +18,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://blindjunction.co.uk/testingsource/')
+WebUI.navigateToUrl(URL)
 
-for (def rowNum = 1; rowNum <= findTestData('login').getRowNumbers(); rowNum++) {
+for (def rowNum = 1; rowNum <= findTestData('null').getRowNumbers(); rowNum++) {
     WebUI.setText(findTestObject('Object Repository/excel/Page_Login - Software to Manage Blinds from_4df230/input_Company  Name_company_name'), 
-        findTestData('login').getValue(1, rowNum))
+        findTestData('null').getValue(1, rowNum))
 
     WebUI.setText(findTestObject('Object Repository/excel/Page_Login - Software to Manage Blinds from_4df230/input_User Name_user_name'), 
-        findTestData('login').getValue(2, rowNum))
+        findTestData('null').getValue(2, rowNum))
 
     WebUI.setText(findTestObject('Object Repository/excel/Page_Login - Software to Manage Blinds from_4df230/input_Password_user_password'), 
-        findTestData('login').getValue(3, rowNum))
-	Thread.sleep(2000)
+        findTestData('null').getValue(3, rowNum))
+
+    Thread.sleep(2000)
 }
 
 WebUI.click(findTestObject('Object Repository/excel/Page_Login - Software to Manage Blinds from_4df230/input_Password_submitButton'))

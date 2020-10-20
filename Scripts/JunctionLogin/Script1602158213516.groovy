@@ -16,24 +16,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.maximizeWindow(FailureHandling.OPTIONAL)
+WebUI.navigateToUrl('http://blindjunction.net/#/login?companyname=BMDEMO')
 
-WebUI.navigateToUrl(GlobalVariable.Url, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/input_Customer Name_form-control ng-untouch_4ed290'), 
+    'latha')
 
-WebUI.setText(findTestObject('Object Repository/Junction_Login/Page_Login - Software to Manage Blinds from_4df230/input_Company  Name_company_name'), 
-    GlobalVariable.CompanyName)
+WebUI.setEncryptedText(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/input_Password_form-control ng-untouched ng_8b7ecf'), 
+    'tzH6RvlfSTg=')
 
-WebUI.setText(findTestObject('Object Repository/Junction_Login/Page_Login - Software to Manage Blinds from_4df230/input_User Name_user_name'), 
-    GlobalVariable.UserName)
+WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/button_LOG IN'))
 
-WebUI.setText(findTestObject('Object Repository/Junction_Login/Page_Login - Software to Manage Blinds from_4df230/input_Password_user_password'), 
-    GlobalVariable.Password)
+WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/a_Create New'))
 
-WebUI.click(findTestObject('Junction_Login/Page_Login - Software to Manage Blinds from_4df230/input_Password_submitButton'))
+WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/a_Create New'))
 
-WebUI.waitForPageLoad(5)
+WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/a_Submitted Orders'))
 
-WebUI.getWindowTitle()
+WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/a_Unsubmitted Orders'))
+
+WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/a_Jobs In Progress'))
+
+WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/mat-icon_arrow_drop_down'))
+
+WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/button_Sign Out'))
+
+WebUI.closeBrowser()
 
