@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>OnlineLoginCheck</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>da5f9361-c224-4230-a129-d1d0c64061b2</testSuiteGuid>
+   <testCaseLink>
+      <guid>f2f2bbff-9149-4bcb-9ddb-eff61f8314e7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Logincheck_OnlineOrder - Copy</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f63d4aaa-20ee-4a9b-88cc-167f162663e9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Online_login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cbd795c1-9d5c-4527-b125-4dd424061690</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>42764a1a-2161-4aac-8319-3cd7a4230727</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2f87668b-5fa9-42a4-b342-d3d9741fdc7a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

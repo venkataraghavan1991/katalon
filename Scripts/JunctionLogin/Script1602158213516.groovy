@@ -20,27 +20,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://blindjunction.net/#/login?companyname=BMDEMO')
 
-WebUI.setText(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/input_Customer Name_form-control ng-untouch_4ed290'), 
+WebUI.setText(findTestObject('null'), 
     'latha')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/input_Password_form-control ng-untouched ng_8b7ecf'), 
+WebUI.setEncryptedText(findTestObject('null'), 
     'tzH6RvlfSTg=')
 
-WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/button_LOG IN'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/a_Create New'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/a_Create New'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/a_Submitted Orders'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/a_Unsubmitted Orders'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/a_Jobs In Progress'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/mat-icon_arrow_drop_down'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Onlineorderlogincheck/Page_OnlineOrdering/button_Sign Out'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

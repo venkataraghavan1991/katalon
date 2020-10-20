@@ -1,35 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case (1)</name>
+   <name>Logincheck_OnlineOrder - Copy</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>828393cf-ca4d-4198-b068-3d5df5d7ac21</testCaseGuid>
+   <testCaseGuid>0a2c6947-54cc-4d7f-acd3-bd0d0f0f2ad9</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>aa4b9832-24df-412c-8f1a-c781f5704faa</id>
+      <id>cbd795c1-9d5c-4527-b125-4dd424061690</id>
       <masked>false</masked>
       <name>URL</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d91054ba-6c7e-4cfb-9c52-accb27874050</id>
+      <id>42764a1a-2161-4aac-8319-3cd7a4230727</id>
       <masked>false</masked>
-      <name>Companyname</name>
+      <name>CustomerName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>e26b675f-7bb2-41ed-86af-63bee067d933</id>
-      <masked>false</masked>
-      <name>Username</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>db734c56-c3e1-4a7c-a370-2873cd33df98</id>
+      <id>2f87668b-5fa9-42a4-b342-d3d9741fdc7a</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>

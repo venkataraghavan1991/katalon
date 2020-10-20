@@ -16,24 +16,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+for (def rowNum = 1; rowNum <= findTestData('Online_login').getRowNumbers(); rowNum++) {
+    WebUI.openBrowser('')
 
-WebUI.navigateToUrl(URL)
+    WebUI.maximizeWindow()
 
-for (def rowNum = 1; rowNum <= findTestData('null').getRowNumbers(); rowNum++) {
-    WebUI.setText(findTestObject('Object Repository/excel/Page_Login - Software to Manage Blinds from_4df230/input_Company  Name_company_name'), 
-        findTestData('null').getValue(1, rowNum))
+    WebUI.navigateToUrl(findTestData('Online_login').getValue(1, rowNum))
 
-    WebUI.setText(findTestObject('Object Repository/excel/Page_Login - Software to Manage Blinds from_4df230/input_User Name_user_name'), 
-        findTestData('null').getValue(2, rowNum))
+    WebUI.takeFullPageScreenshotAsCheckpoint('')
 
-    WebUI.setText(findTestObject('Object Repository/excel/Page_Login - Software to Manage Blinds from_4df230/input_Password_user_password'), 
-        findTestData('null').getValue(3, rowNum))
+    WebUI.setText(findTestObject('Object Repository/Page_OnlineOrdering/input_Customer Name_form-control ng-untouch_4ed290'), 
+        findTestData('Online_login').getValue(2, rowNum))
 
-    Thread.sleep(2000)
+    WebUI.setText(findTestObject('Object Repository/Page_OnlineOrdering/input_Password_form-control ng-untouched ng_8b7ecf'), 
+        findTestData('Online_login').getValue(3, rowNum))
+
+    WebUI.click(findTestObject('Object Repository/Page_OnlineOrdering/button_LOG IN'))
+
+    WebUI.click(findTestObject('Page_OnlineOrdering/Page_OnlineOrdering/mat-icon_arrow_drop_down'))
+
+    WebUI.click(findTestObject('Page_OnlineOrdering/Page_OnlineOrdering/button_Sign Out'))
+
+    WebUI.closeBrowser()
 }
-
-WebUI.click(findTestObject('Object Repository/excel/Page_Login - Software to Manage Blinds from_4df230/input_Password_submitButton'))
-
-WebUI.click(findTestObject('Object Repository/excel/Page_Order Search/p_STOCK'))
 
